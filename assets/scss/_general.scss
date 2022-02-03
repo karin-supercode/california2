@@ -1,0 +1,27 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color:#000;
+  color:#fff;
+  font-family: Larish, serif;
+}
+
+p, a{
+  font-family: 'Work Sans', sans-serif;
+}
+
+a.buttonRSVP{
+  color:#fff;
+  text-decoration: none;
+  padding:20px 40px;
+  border:1px solid;
+  transition: all 0.7s ease;
+}
+a.buttonRSVP:hover{
+  background-color: #fff;
+  color:#000;
+}
