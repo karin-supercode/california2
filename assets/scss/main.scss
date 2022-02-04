@@ -56,19 +56,19 @@ h2 {
 .pSmall {
   font-family: "Work Sans", sans-serif;
   font-size: 1.5rem;
-  padding-bottom: 0.6%;
+  padding-bottom: 1%;
 }
 
 blockquote p,
 section .joinArticleText {
   font-family: Larish;
-  font-size: 1.8rem;
+  font-size: 2rem;
 }
 
 //HEADER /////////////////////////////////
 .verticalLine {
-  width: 1px;
-  background-color: #fff;
+  width: 2px;
+  background-color: rgba(255, 255, 255, 0.3);
   height: 25%;
   position: absolute;
   top: 0;
@@ -76,9 +76,9 @@ section .joinArticleText {
 }
 .headerSection {
   position: relative;
-  padding-top: 4%;
   h1 {
-    font-size: 8rem;
+    font-size: 6rem;
+    width:80%;
     text-align: center;
     line-height: 0.8em;
   }
@@ -87,13 +87,15 @@ section .joinArticleText {
   }
 
   .flexContainerColumn {
-    height: 82vh;
+    height: 85vh;
+    padding-top:5%;
     @include flexContainerColumn;
   }
   .bearContainer {
-    height: 10vh;
+    height: 15vh;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 5%;
   }
 }
 
@@ -104,6 +106,9 @@ section .joinArticleText {
   padding-bottom: 10%;
   h1 {
     padding: 10% 0;
+  }
+  .pSmall{
+    padding:0.6%;
   }
 }
 
@@ -136,10 +141,10 @@ section .joinArticleText {
   .img5 {
     top: 55%;
     right: 14%;
-    width: 23%;
+    width: 25%;
   }
   .img6 {
-    top: 72%;
+    top: 70%;
     left: 0;
     width: 20%;
   }
@@ -224,7 +229,7 @@ section .joinArticleText {
   }
 
   .leftArticle {
-    width: 50%;
+    width: 48%;
     .pSmall {
       padding-bottom: 1em;
     }
@@ -233,8 +238,9 @@ section .joinArticleText {
     }
   }
   blockquote {
-    width: 50%;
+    width: 52%;
     p.quoteAutor {
+      font-size:1.3rem;
       padding-top: 4%;
     }
   }
@@ -247,7 +253,6 @@ section .joinArticleText {
 }
 
 //SECTION:  Join us /////////////////////////////////
-
 .joinSection {
   padding-top: 7%;
   padding-bottom: 4%;
@@ -255,9 +260,11 @@ section .joinArticleText {
   overflow: hidden;
 
   .joinArticle {
-    width: 50%;
+    width: 48%;
     .joinArticleText {
-      font-size: 2.1rem;
+      font-size: 2.2rem;
+      line-height:1.5em;
+      padding-top:3%;
     }
     .buttonRSVP {
       margin-top: 5%;
@@ -266,7 +273,6 @@ section .joinArticleText {
 }
 
 //SECTION:  Join us - ANIMATION //////////////
-
 .joinAnimationText {
   display: inline-block;
   width: 200%;
@@ -306,7 +312,6 @@ section .joinArticleText {
   justify-content: space-between;
   align-items: center;
   padding-top: 12%;
-  padding-right:10%;
   text-align: right;
   .socialArticle {
     text-align: left;

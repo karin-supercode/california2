@@ -21,9 +21,10 @@ p, a {
 
 a.buttonRSVP {
   display: inline-block;
+  font-size: 1.2rem;
   color: #fff;
   text-decoration: none;
-  padding: 20px 40px;
+  padding: 25px 50px;
   border: 1px solid;
   transition: all 0.7s ease;
 }
@@ -90,18 +91,18 @@ h2 {
 .pSmall {
   font-family: "Work Sans", sans-serif;
   font-size: 1.5rem;
-  padding-bottom: 0.6%;
+  padding-bottom: 1%;
 }
 
 blockquote p,
 section .joinArticleText {
   font-family: Larish;
-  font-size: 1.8rem;
+  font-size: 2rem;
 }
 
 .verticalLine {
-  width: 1px;
-  background-color: #fff;
+  width: 2px;
+  background-color: rgba(255, 255, 255, 0.3);
   height: 25%;
   position: absolute;
   top: 0;
@@ -110,10 +111,10 @@ section .joinArticleText {
 
 .headerSection {
   position: relative;
-  padding-top: 4%;
 }
 .headerSection h1 {
-  font-size: 8rem;
+  font-size: 6rem;
+  width: 80%;
   text-align: center;
   line-height: 0.8em;
 }
@@ -121,16 +122,18 @@ section .joinArticleText {
   padding: 1.5% 0;
 }
 .headerSection .flexContainerColumn {
-  height: 82vh;
+  height: 85vh;
+  padding-top: 5%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 .headerSection .bearContainer {
-  height: 10vh;
+  height: 15vh;
   justify-content: space-between;
   align-items: center;
+  padding-bottom: 5%;
 }
 
 .heroSection {
@@ -140,6 +143,9 @@ section .joinArticleText {
 }
 .heroSection h1 {
   padding: 10% 0;
+}
+.heroSection .pSmall {
+  padding: 0.6%;
 }
 
 .stuckSection {
@@ -171,10 +177,10 @@ section .joinArticleText {
 .stuckSection .img5 {
   top: 55%;
   right: 14%;
-  width: 23%;
+  width: 25%;
 }
 .stuckSection .img6 {
-  top: 72%;
+  top: 70%;
   left: 0;
   width: 20%;
 }
@@ -272,7 +278,7 @@ section .joinArticleText {
 }
 .goldenSection .leftArticle,
 .poppySection .leftArticle {
-  width: 50%;
+  width: 48%;
 }
 .goldenSection .leftArticle .pSmall,
 .poppySection .leftArticle .pSmall {
@@ -284,10 +290,11 @@ section .joinArticleText {
 }
 .goldenSection blockquote,
 .poppySection blockquote {
-  width: 50%;
+  width: 52%;
 }
 .goldenSection blockquote p.quoteAutor,
 .poppySection blockquote p.quoteAutor {
+  font-size: 1.3rem;
   padding-top: 4%;
 }
 
@@ -303,10 +310,12 @@ section .joinArticleText {
   overflow: hidden;
 }
 .joinSection .joinArticle {
-  width: 50%;
+  width: 48%;
 }
 .joinSection .joinArticle .joinArticleText {
-  font-size: 2.1rem;
+  font-size: 2.2rem;
+  line-height: 1.5em;
+  padding-top: 3%;
 }
 .joinSection .joinArticle .buttonRSVP {
   margin-top: 5%;
@@ -362,7 +371,6 @@ section .joinArticleText {
   justify-content: space-between;
   align-items: center;
   padding-top: 12%;
-  padding-right: 10%;
   text-align: right;
 }
 .footerSection .socialArticle {
