@@ -15,7 +15,8 @@ body {
   font-family: Larish, serif;
 }
 
-p, a {
+p,
+a {
   font-family: "Work Sans", sans-serif;
 }
 
@@ -24,7 +25,7 @@ a.buttonRSVP {
   font-size: 1.2rem;
   color: #fff;
   text-decoration: none;
-  padding: 25px 50px;
+  padding: 1.5em 3.5em;
   border: 1px solid;
   transition: all 0.7s ease;
 }
@@ -89,9 +90,7 @@ h2 {
 }
 
 .pSmall {
-  font-family: "Work Sans", sans-serif;
   font-size: 1.5rem;
-  padding-bottom: 1%;
 }
 
 blockquote p,
@@ -105,7 +104,6 @@ section .joinArticleText {
   background-color: rgba(255, 255, 255, 0.3);
   height: 25%;
   position: absolute;
-  top: 0;
   left: 50%;
 }
 
@@ -130,7 +128,6 @@ section .joinArticleText {
   align-items: center;
 }
 .headerSection .bearContainer {
-  height: 15vh;
   justify-content: space-between;
   align-items: center;
   padding-bottom: 5%;
@@ -145,7 +142,7 @@ section .joinArticleText {
   padding: 10% 0;
 }
 .heroSection .pSmall {
-  padding: 0.6%;
+  padding: 0 0 0.6% 0;
 }
 
 .stuckSection {

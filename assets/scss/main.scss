@@ -54,9 +54,7 @@ h2 {
   padding-bottom: 2%;
 }
 .pSmall {
-  font-family: "Work Sans", sans-serif;
   font-size: 1.5rem;
-  padding-bottom: 1%;
 }
 
 blockquote p,
@@ -71,14 +69,13 @@ section .joinArticleText {
   background-color: rgba(255, 255, 255, 0.3);
   height: 25%;
   position: absolute;
-  top: 0;
   left: 50%;
 }
 .headerSection {
   position: relative;
   h1 {
     font-size: 6rem;
-    width:80%;
+    width: 80%;
     text-align: center;
     line-height: 0.8em;
   }
@@ -88,11 +85,10 @@ section .joinArticleText {
 
   .flexContainerColumn {
     height: 85vh;
-    padding-top:5%;
+    padding-top: 5%;
     @include flexContainerColumn;
   }
   .bearContainer {
-    height: 15vh;
     justify-content: space-between;
     align-items: center;
     padding-bottom: 5%;
@@ -107,8 +103,8 @@ section .joinArticleText {
   h1 {
     padding: 10% 0;
   }
-  .pSmall{
-    padding:0.6%;
+  .pSmall {
+    padding: 0 0 0.6% 0;
   }
 }
 
@@ -240,7 +236,7 @@ section .joinArticleText {
   blockquote {
     width: 52%;
     p.quoteAutor {
-      font-size:1.3rem;
+      font-size: 1.3rem;
       padding-top: 4%;
     }
   }
@@ -263,8 +259,8 @@ section .joinArticleText {
     width: 48%;
     .joinArticleText {
       font-size: 2.2rem;
-      line-height:1.5em;
-      padding-top:3%;
+      line-height: 1.5em;
+      padding-top: 3%;
     }
     .buttonRSVP {
       margin-top: 5%;
